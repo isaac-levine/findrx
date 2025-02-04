@@ -17,21 +17,21 @@ type FeatureText = {
 const featureText: FeatureText[] = [
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Always-On Lead Capture",
+    title: "Fill out the FindRx form",
     description:
-      "Your leads are instantly greeted by natural-sounding AI that qualifies interest and books appointments. Never miss another opportunity, day or night, and seamlessly hand off qualified leads to your team.",
+      "Provide your medication and payment details, along with your contact information. One med search for $50 USD, with guaranteed pickup or your money back.",
   },
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Smart Text Nurturing",
+    title: "We find your medication",
     description:
-      "Automated follow-up that feels personal, with intelligent qualification and instant responses to missed calls. Our AI learns what properties interest each lead and keeps them engaged.",
+      "Our team searches pharmacies in your area, starting with your immediate zip code and expanding outward until we locate your prescription.",
   },
   {
     icon: <Coins className="h-6 w-6" />,
-    title: "Tailored Neighborhood Reports",
+    title: "Pick up your medication",
     description:
-      "Instantly generate tailored market intelligence reports based on each lead's preferences and interests. Deliver beautiful, data-rich PDFs covering schools, trends, and local insights within seconds of receiving a new lead.",
+      "Once we find your medication, we'll notify you immediately. Let your doctor know about the pharmacy, and you're all set to pick up your prescription.",
   },
 ];
 
@@ -42,11 +42,11 @@ const Feature = () => {
       <Container className="not-prose">
         <div className="flex flex-col gap-6">
           <h3 className="text-4xl">
-            <Balancer>Modern Lead Response, Powered by AI</Balancer>
+            <Balancer>Find Your Medications Quickly and Easily</Balancer>
           </h3>
           <h4 className="text-2xl font-light opacity-70">
             <Balancer>
-              Convert more leads with intelligent automation that never sleeps
+              99% success rate in locating hard-to-find prescriptions
             </Balancer>
           </h4>
 

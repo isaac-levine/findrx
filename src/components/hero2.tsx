@@ -11,7 +11,7 @@ import { Section, Container } from "@/components/craft";
 // import { Button } from "@/components/ui/button";
 
 // Asset imports
-import Logo from "../../public/logo.svg";
+import Logo from "../../public/logo.png";
 import GetStartedButton from "./landing/GetStartedButton";
 // import { Spotlight } from "./ui/Spotlight";
 // import { SpotlightPreview } from "./landing/SpotlightPreview";
@@ -29,18 +29,17 @@ const Hero = () => {
         />
         <h1 className="!mb-0">
           <Balancer>
-            AI powered growth services for modern real estate teams.
+            Having a hard time finding your prescription medications?
           </Balancer>
         </h1>
-        {/* <SpotlightPreview /> */}
         <h3 className="text-muted-foreground mt-6">
           <Balancer>
-            Empowering real estate professionals with cutting-edge AI solutions
-            to drive growth and efficiency.
+            We&apos;ll find your medicine for you - quick and easy. 99% find
+            rate guaranteed.
           </Balancer>
         </h3>
         <div className="mt-6">
-          <GetStartedButton text="Get Started" href="/get-started" />
+          <GetStartedButton text="Find my Meds" href="/get-started" />
         </div>
       </Container>
     </Section>

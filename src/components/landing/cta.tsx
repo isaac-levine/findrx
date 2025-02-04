@@ -38,13 +38,11 @@ export function CTA() {
   return (
     <Section>
       <Container className="flex flex-col items-center gap-6 text-center">
-        <h2 className="!my-0">Revolutionize Your Lead Response with AI</h2>
+        <h2 className="!my-0">Find your medications quickly and easily</h2>
         <p className="text-lg opacity-70 md:text-2xl">
           <Balancer>
-            Join the beta program and be among the first real estate teams to
-            experience the future of lead conversion. Get 24/7 AI-powered
-            response, intelligent follow-up, and custom market reports that help
-            you close more deals.
+            Stop spending hours searching for your prescriptions. Let us do the
+            work for you with our guaranteed medication finding service.
           </Balancer>
         </p>
         <Form {...form}>

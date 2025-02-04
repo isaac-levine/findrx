@@ -16,27 +16,26 @@ type FAQItem = {
 
 const content: FAQItem[] = [
   {
-    question: "What exactly does frontstep.ai do?",
+    question: "How does FindRx work?",
     answer:
-      "frontstep.ai provides AI-powered lead response services for real estate teams. We handle 24/7 phone calls, text follow-up, and automated reporting so you never miss an opportunity to connect with potential clients.",
+      "We search pharmacies in your area to find your prescription medication. Starting with your immediate zip code, we expand our search until we locate your medicine, then notify you immediately.",
   },
   {
-    question: "How does the AI phone system work?",
+    question: "What does it cost?",
     answer:
-      "Our AI answers calls instantly in natural conversation, qualifying leads and booking appointments. The system understands your listings and market, and seamlessly hands off qualified leads to your team with full conversation context.",
+      "One medication search costs $50 USD. We offer a money-back guarantee if we can't find your prescription. You can also purchase searches in bundles for a lower price, starting at $30 per search.",
   },
   {
-    question: "Can I integrate this with my existing CRM and tools?",
+    question: "What if I can't pick up the medication myself?",
     answer:
-      "Yes! We integrate with all major real estate CRMs and tools. Our team handles the entire setup process, configuring the integrations to work with your existing workflow.",
+      "Don't worry - we'll help you until you successfully pick up your medication, even if someone else needs to pick it up for you.",
   },
   {
-    question: "What makes frontstep.ai different from other AI solutions?",
+    question: "What makes FindRx different?",
     answer:
-      "Unlike generic AI tools, we're built specifically for real estate. Our AI understands property details, market trends, and the nuances of real estate conversations. Plus, we offer full-service setup and management - no technical expertise required.",
+      "We have a 99% find rate and provide real human support throughout the process. Our team has extensive healthcare experience from leading hospitals and community pharmacies.",
   },
 ];
-
 const FAQ = () => {
   return (
     <Section>

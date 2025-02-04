@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Balancer from "react-wrap-balancer";
 import { Section, Container } from "./craft";
-import Logo from "../../public/logo.svg";
+import Logo from "../../public/logo.png";
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
         <Container className="grid gap-12 md:grid-cols-[1.5fr_0.5fr_0.5fr]">
           <div className="grid gap-6">
             <Link href="/">
-              <h3 className="sr-only">frontstep.ai</h3>
+              <h3 className="sr-only">FindRx</h3>
               <Image
                 src={Logo}
                 alt="Logo"
@@ -22,26 +22,25 @@ export default function Footer() {
             </Link>
             <p>
               <Balancer>
-                frontstep.ai is a user-friendly form builder specifically
-                designed for real estate agents to capture and nurture leads.
+                FindRx helps patients quickly locate and access their
+                prescription medications by searching across local pharmacies in
+                real-time.
               </Balancer>
             </p>
             <p className="text-muted-foreground">
-              © <a href="https://frontstep.ai">frontstep.ai</a>. All rights
-              reserved.
+              © <a href="https://findrx.com">FindRx</a>. All rights reserved.
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <h5>Website</h5>
-            <Link href="/">Blog</Link>
-            <Link href="/">Authors</Link>
-            <Link href="/">Categories</Link>
+            <h5>Company</h5>
+            <Link href="/about">About Us</Link>
+            <Link href="/news">News</Link>
+            <Link href="/contact">Contact</Link>
           </div>
           <div className="flex flex-col gap-2">
             <h5>Legal</h5>
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms-of-service">Terms of Service</Link>
-            <Link href="/cookie-policy">Cookie Policy</Link>
           </div>
         </Container>
       </Section>
