@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "frontstep.ai",
+  title: "FindRx - Locate Your Medications",
   description:
-    "The premier source for marketing and automation websites for realtors.",
+    "FindRx helps patients quickly locate and access their prescription medications by searching real-time pharmacy inventory across your area.",
 };
 
 export default function RootLayout({
